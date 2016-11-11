@@ -13,7 +13,7 @@
         function formatMedia($url) {
             return '' +
                 '<div class="embed-responsive embed-responsive-16by9">' +
-                '<iframe class="embed-responsive-item" src="' + $url + '" width=\"100%\"></iframe>' +
+                '<iframe class="embed-responsive-item" src="' + $url + '" width=\"100%\" allowfullscreen></iframe>' +
                 '</div>';
         }
 
